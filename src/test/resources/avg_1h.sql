@@ -1,0 +1,10 @@
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m1', 's1', NOW(), 1.0);
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m2', 's1', DATEADD(minute, -10, GETDATE()), 1.0);
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m3', 's1', DATEADD(minute, -20, GETDATE()), 1.0);
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m4', 's1', DATEADD(minute, -30, GETDATE()), 1.0);
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m5', 's1', DATEADD(minute, -40, GETDATE()), 1.0);
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m6', 's1', DATEADD(minute, -50, GETDATE()), 5.0);
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m7', 's1', DATEADD(minute, -60, GETDATE()), 7.0);
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m8', 's1', DATEADD(minute, -70, GETDATE()), 8.0);
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m9', 's1', DATEADD(minute, -80, GETDATE()), 9.0);
+insert into metrics (metric_id, sensor_uuid, at, temperature) values ('m10', 's2', NOW(), 100);
