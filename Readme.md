@@ -15,6 +15,7 @@ Postrges access url is specified in application.properties for `spring.datasourc
     ./gradlew bootRun
     
 ## Testing
+Ensure, that local PostgreSql is accessible, before running tests.
 
     ./gradlew check
 

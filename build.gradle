@@ -61,7 +61,6 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.modelmapper:modelmapper:1.1.0')
 	compile('com.zaxxer:HikariCP')
-	runtime('org.postgresql:postgresql')
+	runtime('org.postgresql:postgresql:9.4.1212')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
-	testCompile('com.h2database:h2')
 }
