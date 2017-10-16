@@ -7,7 +7,7 @@ Postrges access url is specified in application.properties for `spring.datasourc
 
 ### In docker
 
-    sudo ./gradlew build buildDocker
+    sudo ./gradlew build buildDocker -x test -x test_integration
     sudo docker run -p 8080:8080 -t com.metric.assessor
 
 ### In OS
